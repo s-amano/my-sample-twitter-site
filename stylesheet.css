@@ -1,0 +1,670 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  display:flex;
+}
+
+
+
+
+
+/* メイン（真ん中と右）のcss */
+
+main {
+  display:flex;
+  flex-basis: 1077px
+}
+
+#popup {
+  position: absolute;
+  width: 260px;
+  height: 313px;
+  right: 493.5px;
+  top: 215.938px;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.popup-div {
+  width: 265px;
+  /* height: 19px; */
+  padding: 15px;
+  display: flex;
+}
+
+.popup-icon {
+  width: 18.75px;
+  height: 18.75px;
+  margin-right: 10px;
+  padding-top: 2px;
+  fill: #657786;
+}
+/*
+.umekomi:hover {
+  background-color: rgb(230, 236, 240);
+} */
+
+/* メインの真ん中　上 */
+
+.main-contents {
+  flex-basis:590px;
+  border-right: 1px solid rgb(230, 236, 240);
+  border-left: 1px solid rgb(230, 236, 240);
+  height: 3000px;
+}
+
+.home {
+  border-bottom: 1px solid rgb(230, 236, 240);
+  display: flex;
+  height: 53px;
+}
+
+.home-home-par {
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid rgb(230, 236, 240);
+  background-color: white;
+  padding: 0 15px;
+ z-index: 10;
+  width: 628px;
+  box-sizing: border-box;
+}
+
+.home-home {
+  width: 513px;
+}
+
+.home-home h2 {
+  line-height: 53px;
+  margin: 0;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.home-icon-par {
+  width: 34.75px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.home-icon {
+  width: 22.5px;
+  height: 22.5px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  fill: #1da1f2;
+}
+
+.now {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  height: 117px;
+  margin-top: 10px;
+}
+
+.myicon img {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+}
+
+.myicon {
+  margin-right: 7px;
+}
+
+.write {
+  width: 512px;
+  height: 49px;
+}
+
+.write p {
+  line-height: 49px;
+  margin: 0;
+  font-size: 19px;
+  font-weight: 400px;
+  color: #657786;
+  font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.twe-icon {
+  display: flex;
+  height: 49px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.twe-icon-child1 {
+  display: flex;
+  width: 156px;
+  height: 19px;
+  margin-top: 10px;
+  position: absolute;
+  top: 10px;
+}
+
+.twe-icon-a {
+  width: 22.5px;
+  height: 22.5px;
+  fill: #1da1f2;
+}
+
+.add-picture {
+  margin-right: 10px;
+  width: 39px;
+  height: 39px;
+}
+
+.add-gif {
+  margin-right: 10px;
+  width: 39px;
+  height: 39px;
+}
+
+.add-question {
+  margin-right: 10px;
+  width: 39px;
+  height: 39px;
+}
+
+.add-stamp {
+  margin-right: 10px;
+  width: 39px;
+  height: 39px;
+}
+
+
+.twe-btn {
+  display: flex;
+  width: 180px;
+  height: 39px;
+  margin-top: 10px;
+  position: absolute;
+  left: 350px;
+}
+
+.twe-btn-child {
+  display: flex;
+  position: relative;
+  width: 180px;
+  height: 39px;
+}
+
+.circle {
+    margin: 4.5px 0 4.5px 0;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+
+}
+
+.circle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.stick {
+  width: 1px;
+  height: 30px;
+  margin: 0 10px 0px 8px;
+  border: 0.1px solid #14171a;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+
+.add-tweet {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #1da1f2;
+  position: absolute;
+  left: 50px;
+  top: 5px;
+}
+
+.add-tweet svg {
+  width: 19.5px;
+  height: 19.5px;
+  position: absolute;
+  top: 3.5px;
+  left: 4px;
+  fill: #1da1f2;
+}
+
+.add-tweet-child {
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+
+.tweet-btn {
+  width: 91px;
+  height: 39px;
+  border-radius: 25px;
+  background-color: rgb(29, 161, 242);
+  line-height: 39px;
+  text-align: center;
+  margin-left: 10px;
+  position: absolute;
+  left: 85px;
+}
+
+.tweet-btn a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+
+}
+
+.tweet {
+  width: 598px;
+  height: 540px;
+  padding: 15px 15px 0 15px;
+  border-bottom: 1px solid rgb(230, 236, 240);
+}
+
+.tweet-core {
+  display: flex;
+}
+
+.tweet-your-icon {
+  margin:0 5px 0 5px;
+}
+
+.tweet-your-icon img {
+  width: 49px;
+  height: 49px;
+}
+
+.tweet-name {
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-name-name-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tweet-name-name-a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #9FA0A0;
+}
+
+.tweet-details-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.tweet-details-child {
+  width: 25px;
+  height: 25px;
+}
+
+.tweet-picture {
+  margin-top: 10px;
+  border: 1px solid rgb(230, 236, 240);
+  border-radius: 10px;
+  background-size: cover;
+  width: 509px;
+  height: 369px;
+}
+
+.tweet-picture img {
+  width: 508px;
+  height: 368px;
+  border-radius: 10px;
+}
+
+.tweet-reactions {
+  display: flex;
+  width: 425px;
+  height: 19px;
+  margin-top: 10px;
+}
+
+.reaction-icon {
+  width: 17.5px;
+  height: 17.5px;
+}
+
+.reaction-number p {
+  width: 8px;
+  height: 19px;
+}
+
+.comment {
+  display: flex;
+  width: 99px;
+  height: 19px;
+}
+
+
+.rt {
+  display: flex;
+  width: 99px;
+  height: 19px;
+}
+
+.good {
+  display: flex;
+  width: 99px;
+  height: 19px;
+}
+
+.action {
+  width: 99px;
+  height: 19px;
+}
+
+/* メインの右側 */
+
+
+.side-column {
+  flex-basis:350px;
+  padding: 10px 0 59px 0;
+  margin: 0 auto;
+}
+
+.side-column-child {
+  position: fixed;
+  width: 350px;
+}
+
+
+.mushi {
+  position: relative;
+}
+
+.mushi-icon {
+  width: 30px;
+  height: 18.75px;
+  padding-left: 15px;
+  position:absolute;
+  top: 9px;
+}
+
+.keyword {
+  width: 308px;
+  height: 37px;
+  position: relative;
+}
+
+.keyword input {
+  border-style: none;
+  background-color: rgb(230, 236, 240);
+  font-size: 15px;
+  position: absolute;
+  top: 9px;
+  left: 50px;
+  color: #898989;
+}
+
+.mushi-keyword {
+  display: flex;
+  margin-bottom: 15px;
+  width: 350px;
+  height: 39px;
+}
+
+
+.mushi-keyword-child {
+  position: fixed;
+
+    width: 350px;
+    height: 39px;
+    border-radius: 20px;
+    border: 1px solid rgb(230, 236, 240);
+    background-color: rgb(230, 236, 240);
+}
+
+.mushi-keyword-child2 {
+  display: flex;
+
+}
+
+.trends {
+  border: 1px solid rgb(230, 236, 240);
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.trend-trend {
+  border-bottom: 1px solid rgb(230, 236, 240);
+  padding: 10px 15px;
+  width: 318px;
+  height: 24px;
+}
+
+.trend-trend h2 {
+  margin: 0;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trend-trend-letter {
+  width: 75.25px;
+  height: 21px;
+}
+
+.trend-trend-letter span {
+  font-size: 19px;
+   box-sizing: border-box;
+}
+
+.trend-trend-setting-icon {
+  width: 22.5px;
+  height: 22.5px;
+  fill: #1da1f2;
+}
+
+.tre-pro {
+  border-bottom: 1px solid rgb(230, 236, 240);
+  padding: 10px 15px;
+
+}
+
+.trend  {
+  border-bottom: 1px solid rgb(230, 236, 240);
+  padding:10px 15px;
+  width: 318px;
+  height: 61px;
+
+}
+
+.trend-last {
+  padding:10px 15px;
+}
+
+.tre-title {
+  width: 80px;
+  height: 18px;
+  font-size: 13px;
+  color: #657786;
+}
+
+.tre-exp {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.tre-rt {
+  font-size: 15px;
+  color: #657786;
+}
+
+.tre-pro-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tre-pro-exp {
+  font-size: 15px;
+  color: #657786;
+}
+
+.tre-pro-pro {
+  font-size: 13px;
+  color: #657786;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 78px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+}
+
+.footer-footer {
+  font-size: 13px;
+  color: #657786;
+}
+
+.footer-footer a {
+  color: #657786;
+  text-decoration: none;
+}
+
+.kiyaku {
+  width: 52px;
+  padding-right: 15px;
+}
+
+.privacy {
+  width: 128.969px;
+  padding-right: 15px;
+}
+
+.cookie {
+  width: 40.469px;
+  padding-right: 50px;
+}
+
+.ad {
+  width: 52px;
+  padding-right: 15px;
+  height: 19px;
+}
+
+.more {
+  width: 82px;
+  padding-right: 15px;
+  height: 19px;
+}
+
+.kabu p {
+  margin: 0;
+}
+
+/* ヘッダー（左側）のcss */
+
+
+header {
+  flex-basis:362px;
+  height:660px;
+  text-align: center;
+
+}
+
+
+.header-left-icon {
+  width:26px;
+  height:26px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+
+.header-twiiter-icon {
+  width: 47px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  fill: #1da1f2;
+}
+
+
+.header-left {
+  width: 235px;
+  height: 54px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+.header-left a {
+  font-size: 19px;
+  color: #14171A;
+  font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 46px;
+  position: absolute;
+  top: 3px;
+  left: 50px;
+}
+
+
+
+.header-left img {
+  width:26px;
+  height:26px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+}
+
+.header-tweet-icon {
+  position: relative;
+}
+
+.tweet-icon {
+  border-radius: 25px;
+  width: 211px;
+  height: 49px;
+  background-color: rgb(29, 161, 242);
+  margin: 0 auto;
+  display: block;
+  line-height: 47px;
+  position: absolute;
+  left: 25px;
+}
+
+.tweet-icon a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+
+
+.blank {
+  background-color: #F2F2F2;
+  height: 10px;
+
+}
+
+.left {
+  position: fixed;
+    /* margin: auto; */
+    left: 87.5px;
+    width: 275px;
+    height: 415px;
+}
+
